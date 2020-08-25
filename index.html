@@ -46,7 +46,7 @@
     <section class="main-services section">
       <div class="container">
         <h1 class="title mar-pad">Эффективные решения для вашего бизнеса</h1>
-        <button class="dwl-bt ">Заказать услугу</button>
+        <button data-modal-open class="dwl-bt ">Заказать услугу</button>
       </div>
     </section>
     <section class="section-feautures">
@@ -318,6 +318,13 @@
       <form action=""></form>
     </div>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button data-modal-close class="close-btn"> &#10006;</button>
+    </div>
+  </div>
+  <script src="./js/modal.js">
+  </script>
 </body>
 
 </html>
