@@ -43,6 +43,9 @@ li {
   display: flex;
   align-items: center;
 }
+.header-page.portfolio{
+  border-bottom: 1px solid #ECECEC;
+}
 .nav-menu {
   display: flex;
 }
