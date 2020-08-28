@@ -371,18 +371,14 @@ li {
 .port-exemp .item img{
   display: block;
 }
-.port-exemp .item {
-  overflow: hidden;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-bottom: 20px;
-}
-.port-exemp .item:hover,
-.port-exemp .item:focus,
-.port-exemp .item:active {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 
-}.decor-link:hover,
+.decor-link{
+  display: block;
+  padding-bottom: 20px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.decor-link:hover,
 .decor-link:active,
 .decor-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -473,12 +469,7 @@ li {
   position: relative;
 }
 
-.port-exemp .item:hover .jb-descrition,
-.port-exemp .item:active .jb-descrition,
-.port-exemp .item:focus .jb-descrition{
 
-  transform: translateY(0);
-}
 .jb-descrition {
   transform: translateY(100%);
   position: absolute;
